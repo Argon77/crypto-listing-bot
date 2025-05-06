@@ -1,0 +1,105 @@
+# Python-specific ignores
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы кэша и временные файлы
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+ENV/
+
+# Зависимости, установленные локально
+pip-wheel-metadata/
+*.pip
+
+# Файлы кэша pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Файлы coverage и тестов
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+tox/
+nox/
+htmlcov/
+
+# Логи и временные файлы
+*.log
+*.log.*
+logs/
+*.bak
+*.swp
+*~
+
+# Файлы окружения и секреты
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+secrets/
+credentials.json
+*.pem
+*.key
+*.cert
+
+# Профилировщики и отладочные файлы
+*.prof
+*.lprof
+profile/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE и редакторы
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Документация и сборки
+docs/_build/
+*.ipynb_checkpoints/
+
+# Локальные файлы и кэш
+*.cache
+*.tmp
+*.temp
+local_settings.py
+*.local
